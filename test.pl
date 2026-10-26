@@ -1,0 +1,1 @@
+voted_yes(cj).
