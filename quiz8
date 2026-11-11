@@ -1,0 +1,5 @@
+lookup' :: (Eq a) => a -> [(a,b)] -> Maybe b
+lookup' x [] = Nothing
+lookup' x ((y, v):ys) =
+    if x == y then Just V
+    else lookup' x ys
